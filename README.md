@@ -1,2 +1,2 @@
-# trungtin.github.io
-Trung Tin on GitHub
+# NguyenTrungTin.github.io
+Nguyen Trung Tin on GitHub
