@@ -46,6 +46,13 @@ html, body {
   margin-top: -30px;
 }
 
+/* TODO: Just a line */
+
+#line {
+  margin: 5px 200px;
+  border-bottom: solid 1px black;
+}
+
 /* TODO: Just for love */
 
 .love {
@@ -70,6 +77,38 @@ html, body {
 }
 
 .dream #mydream {
+  border-radius: 50%;
+  border: solid 2px white;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  margin-top: -30px;
+}
+
+/* TODO: Just for think */
+
+.think {
+  height: 600px;
+  text-align: center;
+}
+
+.think #mythink {
+  border-radius: 50%;
+  border: solid 2px white;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  margin-top: -30px;
+}
+
+/* TODO: Just for video */
+
+.video {
+  height: 600px;
+  text-align: center;
+}
+
+.video #myvideo {
   border-radius: 50%;
   border: solid 2px white;
   background-color: white;
