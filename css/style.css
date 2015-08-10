@@ -1,0 +1,48 @@
+html, body {
+  margin: 0px;
+}
+
+/* TODO: Just for Header */
+.header {
+  display: block;
+}
+.header-image {
+  background: url("../images/background.jpg")no-repeat center center;
+  height: 400px;
+}
+
+.blog-title {
+  height: 400px;
+  text-align: center;
+}
+
+.blog-title p {
+  font-size: 15px;
+  font-style: italic;
+
+}
+
+.header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: solid 3px white;
+  margin-top: -100px;
+}
+
+/* TODO: Just for about */
+
+.about {
+  background-color: blue;
+  height: 400px;
+  text-align: center;
+}
+
+.about #user {
+  border-radius: 50%;
+  border: solid 2px white;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  margin-top: -30px;
+}
