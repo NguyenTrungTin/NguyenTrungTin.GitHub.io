@@ -6,13 +6,26 @@ html, body {
 .header {
   display: block;
 }
+
 .header-image {
-  background: url("../images/background.jpg")no-repeat center center;
   height: 400px;
+  background: transparent url("../images/background.jpg") no-repeat scroll center;
+}
+
+.avatar {
+  text-align: center;
+}
+
+.avatar img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: solid 3px white;
+  margin-top: -100px;
 }
 
 .blog-title {
-  height: 600px;
+  height: 300px;
   text-align: center;
 }
 
@@ -22,18 +35,11 @@ html, body {
 
 }
 
-.header img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: solid 3px white;
-  margin-top: -100px;
-}
-
 /* TODO: Just for about */
 
 .about {
-  height: 600px;
+  background: transparent url("../images/about-bg.jpg") no-repeat fixed center;
+  height: 1440px;
   text-align: center;
 }
 
@@ -41,9 +47,18 @@ html, body {
   border-radius: 50%;
   border: solid 2px white;
   background-color: white;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   margin-top: -30px;
+}
+
+.row {
+  margin: 20px 0px;
+}
+
+.col-md-4 {
+  border-bottom: dotted 2px white;
+  color: white;
 }
 
 /* TODO: Just a line */
@@ -56,48 +71,51 @@ html, body {
 /* TODO: Just for love */
 
 .love {
-  height: 600px;
+  background: transparent url("../images/love-bg.jpg") no-repeat fixed center;
+  height: 1440px;
   text-align: center;
 }
 
 .love #heart {
   border-radius: 50%;
-  border: solid 2px white;
-  background-color: white;
-  width: 50px;
-  height: 50px;
+  border: solid 2px transparent;
+  background-color: transparent;
+  width: 60px;
+  height: 60px;
   margin-top: -30px;
 }
 
 /* TODO: Just for Dream */
 
 .dream {
-  height: 600px;
+  background: transparent url("../images/dream-bg.jpg") no-repeat fixed center;
+  height: 1440px;
   text-align: center;
 }
 
 .dream #mydream {
   border-radius: 50%;
-  border: solid 2px white;
-  background-color: white;
-  width: 50px;
-  height: 50px;
+  border: solid 2px transparent;
+  background-color: transparent;
+  width: 60px;
+  height: 60px;
   margin-top: -30px;
 }
 
 /* TODO: Just for think */
 
 .think {
-  height: 600px;
+  background: transparent url("../images/think-bg.jpg") no-repeat fixed center;
+  height: 1440px;
   text-align: center;
 }
 
 .think #mythink {
   border-radius: 50%;
-  border: solid 2px white;
-  background-color: white;
-  width: 50px;
-  height: 50px;
+  border: solid 2px transparent;
+  background-color: transparent;
+  width: 60px;
+  height: 60px;
   margin-top: -30px;
 }
 
@@ -112,7 +130,7 @@ html, body {
   border-radius: 50%;
   border: solid 2px white;
   background-color: white;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   margin-top: -30px;
 }

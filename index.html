@@ -61,11 +61,11 @@
       </div>
 
       <!-- TODO: Div for Blog title -->
-      <div class="blog-title">
-        <figure>
-          <a href="http://nguyentrungtin.github.io/"><img class="animated zoomIn" src="images/tin.png" alt="Tin" /></a>
-        </figure>
+        <div class="avatar animated zoomIn">
+          <a href="http://nguyentrungtin.github.io/"><img src="images/tin.png" alt="Tin" /></a>
+        </div>
 
+        <div class="blog-title">
         <div class="header-content animated pulse">
           <h1>Trung Tin</h1>
           <p>
@@ -73,57 +73,69 @@
           </p>
         </div>
       </div>
-
+    </div>
 
     <!-- TODO: Div for About-me -->
+
     <div class="about">
       <div class="container">
+
         <figure>
-          <img id="user" class="wow zoomIn" data-wow-duration="3s" data-wow-delay="0.5s" src="images/user.png" alt="TrungTin" />
+          <img id="user" class="wow zoomInDown" data-wow-duration="3s" src="images/user.png" alt="TrungTin" />
         </figure>
 
-        <div id="line" class="wow slideInLeft" data-wow-duration="4s" data-wow-delay="0.5s">
-
+        <div class="row wow fadeInRight" data-wow-duration="2s" data-wow-delay="2s">
+          <div class="col-md-4 col-md-offset-8">
+            <h4>Future</h4>
+            <p>
+              I don't believe in the saying: "What will be will be."
+              I'll creat my future for myself!
+            </p>
+          </div>
         </div>
 
-        <div class="born">
-
+        <div class="row wow fadeInRight" data-wow-duration="2s" data-wow-delay="2s">
+          <div class="col-md-4 col-md-offset-6">
+            <h4>Next</h4>
+            <p>
+              Shhh! It's secret. Time will let you know!
+            </p>
+          </div>
         </div>
 
-        <div class="connect">
-
+        <div class="row wow fadeInRight" data-wow-duration="1s" data-wow-delay="2s">
+          <div class="col-md-4 col-md-offset-4">
+            <h4>Now</h4>
+            <p>
+              I love code. I teach myself to learn Information Technology.
+              Creativity is the biggest reason that I love it. I belong it...
+            </p>
+          </div>
         </div>
 
-        <div class="young-life">
-
+        <div class="row wow fadeInRight" data-wow-duration="1s" data-wow-delay="2s">
+          <div class="col-md-4 col-md-offset-2">
+            <h4>Young</h4>
+            <p>
+              I'm a giddy boy, a naughty student and....
+              Sometimes I'm a romantic, sometimes not.
+              I entered Ho Chi Minh city University of Law in the fall of 2012.
+            </p>
+          </div>
         </div>
 
-        <div class="connect">
-
-        </div>
-
-        <div class="now">
-
-        </div>
-
-        <div class="connect">
-
-        </div>
-
-        <div class="next-time">
-
-        </div>
-
-        <div class="connect">
-
-        </div>
-
-        <div class="future">
-
+        <div class="row wow fadeInRight" data-wow-duration="1s" data-wow-delay="2s">
+          <div class="born col-md-4">
+            <h4>Born</h4>
+            <p>
+              The first time I cry in my life is 3h40 AM, 01/06/2015. I don't know how it is but I always think that it's a beautiful day!
+              Yes, I'm a Gemini. I'm summer boy!
+            </p>
+          </div>
         </div>
 
       </div>
-    </div>
+      </div>
 
     <!-- TODO: Div for Love -->
     <div class="love">
@@ -132,29 +144,32 @@
           <img id="heart" class="wow zoomIn" data-wow-duration="3s" data-wow-delay="0.5s" src="images/heart.png" alt="heart" />
         </figure>
 
-        <div id="line" class="wow slideInLeft" data-wow-duration="4s" data-wow-delay="0.5s">
-
-        </div>
-
         <div class="circle">
+
           <div class="love-center">
-
+            <img src="" alt="" />
           </div>
+
           <div class="coffee">
-
+            <img src="" alt="" />
           </div>
+
           <div class="smoking">
-
+            <img src="" alt="" />
           </div>
+
           <div class="music">
-
+            <img src="" alt="" />
           </div>
+
           <div class="code">
-
+            <img src="" alt="" />
           </div>
+
           <div class="and-girl">
-
+            <img src="" alt="" />
           </div>
+
         </div>
       </div>
     </div>
@@ -166,10 +181,6 @@
           <img id ="mydream" class="wow zoomIn" data-wow-duration="3s" data-wow-delay="0.5s" src="images/dream.png" alt="dream" />
         </figure>
 
-        <div id="line" class="wow slideInLeft" data-wow-duration="4s" data-wow-delay="0.5s">
-
-        </div>
-
       </div>
     </div>
 
@@ -180,11 +191,7 @@
         <figure>
           <img id="mythink" class="wow zoomIn" data-wow-duration="3s" data-wow-delay="0.5s" src="images/think.png" alt="think" />
         </figure>
-
-        <div id="line" class="wow slideInLeft" data-wow-duration="4s" data-wow-delay="0.5s">
-
-        </div>
-
+        
       </div>
     </div>
 
@@ -195,10 +202,6 @@
         <figure>
           <img id="myvideo" class="wow zoomIn" data-wow-duration="3s" data-wow-delay="0.5s" src="images/video.png" alt="video" />
         </figure>
-
-        <div id="line" class="wow slideInLeft" data-wow-duration="4s" data-wow-delay="0.5s">
-
-        </div>
 
       </div>
     </div>
@@ -236,9 +239,15 @@
       new WOW().init();
     </script>
 
+    <!-- TODO: Add file script.css -->
+    <script type="text/javascript" src="js/script.js">
+
+    </script>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
   </body>
 </html>
