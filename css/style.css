@@ -41,6 +41,7 @@ html, body {
   background: transparent url("../images/about-bg.jpg") no-repeat fixed center;
   height: 1440px;
   text-align: center;
+  color: white;
 }
 
 .about #user {
@@ -52,20 +53,29 @@ html, body {
   margin-top: -30px;
 }
 
+.about h2 {
+  margin-bottom: 200px;
+}
+
+.about h4, .about p {
+  font-style: italic;
+}
+
+.about h4 {
+  font-size: 20px;
+}
+.about p {
+  font-size: 17px;
+}
+
 .row {
-  margin: 20px 0px;
+  margin: 50px 0px;
+
 }
 
 .col-md-4 {
   border-bottom: dotted 2px white;
   color: white;
-}
-
-/* TODO: Just a line */
-
-#line {
-  margin: 5px 200px;
-  border-bottom: solid 1px black;
 }
 
 /* TODO: Just for love */
@@ -74,6 +84,7 @@ html, body {
   background: transparent url("../images/love-bg.jpg") no-repeat fixed center;
   height: 1440px;
   text-align: center;
+  color: white;
 }
 
 .love #heart {
@@ -85,12 +96,70 @@ html, body {
   margin-top: -30px;
 }
 
+.circle {
+  position: relative;
+  border-radius: 50%;
+  border: solid 2px white;
+  background-color: transparent;
+  width: 600px;
+  height: 600px;
+  margin: 250px auto;
+  text-align: center;
+}
+
+.love-center {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  z-index: 9999;
+  margin: 200px;
+}
+
+.love-center .glyphicon-cd {
+  font-size: 120px;
+  margin: 40px;
+}
+
+.smoking, .coffee, .music, .code {
+  position: absolute;
+  border-radius: 50%;
+  border: solid 2px white;
+  width: 100px;
+  height: 100px;
+  z-index: 9999;
+  background-color: white;
+  text-align: center;
+}
+
+.smoking, .coffee {
+  float: left;
+  top: 75px;
+}
+
+.smoking img {
+  margin: 15px;
+}
+
+.coffee {
+  left: 500px;
+}
+
+.music, .code {
+  float: right;
+  bottom: 75px;
+}
+
+.code {
+  left: 500px;
+}
 /* TODO: Just for Dream */
 
 .dream {
   background: transparent url("../images/dream-bg.jpg") no-repeat fixed center;
   height: 1440px;
   text-align: center;
+  color: white;
 }
 
 .dream #mydream {
@@ -102,14 +171,20 @@ html, body {
   margin-top: -30px;
 }
 
+.dream-content {
+  text-align: center;
+}
 /* TODO: Just for think */
 
 .think {
   background: transparent url("../images/think-bg.jpg") no-repeat fixed center;
   height: 1440px;
-  text-align: center;
+  color: white;
 }
 
+.think-top {
+  text-align: center;
+}
 .think #mythink {
   border-radius: 50%;
   border: solid 2px transparent;
