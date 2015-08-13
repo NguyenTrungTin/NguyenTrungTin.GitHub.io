@@ -33,13 +33,9 @@
     <!-- Bootstrap -->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <!-- File bootstrap.min.css for localhost -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-    <!-- File bootstrap-theme.min.css for localhost -->
-    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -50,6 +46,9 @@
 
     <!-- Add animate.css file -->
     <link rel="stylesheet" href="css/animate.css">
+
+    <!-- Emoji -->
+    <script src="//twemoji.maxcdn.com/twemoji.min.js"></script>
 
     <!-- Add css file -->
     <link rel="stylesheet" href="css/style.css">
@@ -95,7 +94,7 @@
             <h4><span class="glyphicon glyphicon-flash"></span> Future</h4>
             <p>
               I don't believe in the saying: "What will be will be."
-              I'll creat my future for myself!
+              I'll create my future for myself!
             </p>
           </div>
         </div>
@@ -124,7 +123,7 @@
             <h4><span class="glyphicon glyphicon-flash"></span> Young</h4>
             <p>
               I'm a giddy boy, a naughty student and....
-              Sometimes I'm a romantic, sometimes not.
+              Sometimes I'm romantic, sometimes not.
               I entered Ho Chi Minh city University of Law in the fall of 2012.
             </p>
           </div>
@@ -134,7 +133,7 @@
           <div class="born col-md-4">
             <h4><span class="glyphicon glyphicon-flash"></span> Born</h4>
             <p>
-              The first time I cry in my life is 3h40 AM, 01/06/2015. I don't know how it is but I always think that it's a beautiful day!
+              The first time I cry in my life is 3h40 AM, 01/06/2015. I don't know how it is, but I always think that it's a beautiful day!
               Yes, I'm a Gemini. I'm summer boy!
             </p>
           </div>
@@ -201,7 +200,7 @@
           <p class="wow zoomInUp" data-wow-duration="2s" data-wow-delay="6s">
             Forever!
           </p>
-          <h2 class="wow zoomInDown" data-wow-duration="2s" data-wow-delay="2s">Fly over sky. Look stars. Walk on the Mars...</h2>
+          <h2 class="wow zoomInDown" data-wow-duration="2s" data-wow-delay="2s">Fly over the sky. Look stars. Walk on the Mars...</h2>
           <ul>
             <li class="wow zoomInUp" data-wow-duration="2s" data-wow-delay="3s">And sleep on the Space! <li>
             <li id="plane" class="glyphicon glyphicon-send wow zoomInUp" data-wow-duration="2s" data-wow-delay="4s"></li>
@@ -255,14 +254,16 @@
     </div>
 
     <!-- TODO: Div for Video -->
-    <div class="video">
-      <div class="container">
+    <div class="video-section">
 
-        <figure>
+        <div>
           <img id="myvideo" class="wow zoomInUp" data-wow-duration="2s" src="images/video.png" alt="video" />
-        </figure>
+        </div>
 
-      </div>
+        <video muted loop autoplay poster="images/video-bg.jpg">
+          <source src="http://vjs.zencdn.net/v/oceans.mp4" type="video/mp4">
+        </video>
+
     </div>
 
     <!-- TODO: Div for Footer -->
@@ -270,23 +271,29 @@
       <div class="container">
 
         <div class="row">
-          <div class="col-md-4">
-            <h4><img src="" alt="code-emoji" />by <a href="http://nguyentrungtin.github.io/">Nguyen Trung Tin</a> with <img src="" alt="smoking" /> - <img src="" alt="coffee" /> and <img src="" alt="love-emoji" /></h4>
+          <div class="col-md-6">
+            <h4>🚀 by <a href="http://nguyentrungtin.github.io/">Nguyen Trung Tin</a> with ☕, 🚬, 🎧 and 💕</h4>
+            <p id="work">
+              See my work <a href="html/work.html" target="_blank">here!</a>
+            </p>
           </div>
-          <div class="col-md-8">
+          <div id="social" class="col-md-6">
             <ul>
-              <li><a href="https://www.facebook.com/ongtrum.trungtin"><img src="" alt="facebook" /></a></li>
-              <li><a href="https://www.google.com/+TrungTinGoogle"><img src="" alt="google+" /></a></li>
-              <li><a href="https://twitter.com/nitgnurt"><img src="" alt="twitter" /></a></li>
-              <li><a href="https://github.com/NguyenTrungTin"><img src="" alt="github" /></a></li>
-              <li><a href="https://gitlab.com/u/TrungTin "><img src="" alt="gitlab" /></a></li>
-              <li><a href="https://nguyentrungtin.wordpress.com/"><img src="" alt="wordpress" /></a></li>
+              <li><a href="https://www.facebook.com/ongtrum.trungtin"><img src="images/facebook.png" alt="facebook" /></a></li>
+              <li><a href="https://www.google.com/+TrungTinGoogle"><img src="images/google.png" alt="google+" /></a></li>
+              <li><a href="https://twitter.com/nitgnurt"><img src="images/twitter.png" alt="twitter" /></a></li>
+              <li><a href="https://github.com/NguyenTrungTin"><img src="images/github.png" alt="github" /></a></li>
+              <li><a href="https://www.flickr.com/photos/ongtrum/"><img src="images/flickr.png" alt="flickr" /></a></li>
+              <li><a href="https://nguyentrungtin.wordpress.com/"><img src="images/wordpress.png" alt="wordpress" /></a></li>
             </ul>
           </div>
         </div>
 
         <div class="thanks">
-          <p>Thanks <a href="https://github.com">GitHub</a>, <a href="http://getbootstrap.com/">Bootstrap</a>, <a href="http://jquery.com/">Jquery</a> and others awesome who made opensource!</p>
+          <p>
+            Build with <a href="http://getbootstrap.com/">Bootstrap</a>, <a href="https://github.com/daneden/animate.css">Animate.css</a> and <a href="http://mynameismatthieu.com/WOW/">WOW.js</a>
+          </p>
+          <p>Thanks <a href="https://github.com">GitHub</a>, <a href="http://getbootstrap.com/">Bootstrap</a>, <a href="http://jquery.com/">jQuery</a>, <a href="https://github.com/daneden/">Daniel Eden</a>, <a href="https://github.com/matthieua">Matthieu Aussaguel</a> and others awesome who made opensource!</p>
         </div>
 
       </div>
@@ -298,24 +305,11 @@
       new WOW().init();
     </script>
 
-    <!-- TODO: Add file script.css -->
-    <script type="text/javascript" src="js/script.js">
-
-    </script>
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- File jquery.min.css for localhost -->
-    <script src="js/jquery.min.js">
 
-    </script>
-
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <!-- File bootstrap.min.js for localhost -->
-    <script src="js/bootstrap.min.js">
-
-    </script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
   </body>
 </html>
