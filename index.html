@@ -92,7 +92,7 @@
 
         <div class="row wow fadeInRight" data-wow-duration="2s" data-wow-delay="1s">
           <div class="col-md-4 col-md-offset-8">
-            <h4>Future</h4>
+            <h4><span class="glyphicon glyphicon-flash"></span> Future</h4>
             <p>
               I don't believe in the saying: "What will be will be."
               I'll creat my future for myself!
@@ -102,7 +102,7 @@
 
         <div class="row wow fadeInRight" data-wow-duration="2s" data-wow-delay="1s">
           <div class="col-md-4 col-md-offset-6">
-            <h4>Next</h4>
+            <h4><span class="glyphicon glyphicon-flash"></span> Next</h4>
             <p>
               Shhh! It's secret. Time will let you know!
             </p>
@@ -111,7 +111,7 @@
 
         <div class="row wow fadeInRight" data-wow-duration="2s" data-wow-delay="1s">
           <div class="col-md-4 col-md-offset-4">
-            <h4>Now</h4>
+            <h4><span class="glyphicon glyphicon-flash"></span> Now</h4>
             <p>
               I love code. I teach myself to learn Information Technology.
               Creativity is the biggest reason that I love it. I belong it...
@@ -121,7 +121,7 @@
 
         <div class="row wow fadeInRight" data-wow-duration="2s" data-wow-delay="1s">
           <div class="col-md-4 col-md-offset-2">
-            <h4>Young</h4>
+            <h4><span class="glyphicon glyphicon-flash"></span> Young</h4>
             <p>
               I'm a giddy boy, a naughty student and....
               Sometimes I'm a romantic, sometimes not.
@@ -132,7 +132,7 @@
 
         <div class="row wow fadeInRight" data-wow-duration="2s" data-wow-delay="1s">
           <div class="born col-md-4">
-            <h4>Born</h4>
+            <h4><span class="glyphicon glyphicon-flash"></span> Born</h4>
             <p>
               The first time I cry in my life is 3h40 AM, 01/06/2015. I don't know how it is but I always think that it's a beautiful day!
               Yes, I'm a Gemini. I'm summer boy!
@@ -151,26 +151,27 @@
         </figure>
 
         <h2 class="wow bounceInUp" data-wow-duration="2s">Love</h2>
-        <div class="circle">
 
-          <div class="smoking">
-            <img src="images/smoking.png" alt="smoking" width="70px" height="70px"/>
+        <div class="circle wow rotateIn" data-wow-duration="10s" data-wow-iteration="1000">
+
+          <div class="smoking wow zoomIn" data-duration="5s">
+            <img src="images/smoking.png" alt="smoking" width="65px" height="65px" />
           </div>
 
-          <div class="coffee">
-            <img src="" alt="" />
+          <div class="coffee wow zoomIn" data-duration="5s">
+            <img src="images/coffee.png" alt="coffee" width="65px" height="65px" />
           </div>
 
-          <div class="love-center">
-            <span class="glyphicon glyphicon-cd wow rotateIn" aria-hidden="true" data-wow-duration="1s" data-wow-offset="1" data-wow-iteration="100"></span>
+          <div class="love-center wow rotateIn" aria-hidden="true" data-wow-iteration="1000">
+            <span class="glyphicon glyphicon-cd"></span>
           </div>
 
-          <div class="music">
-            <img src="" alt="" />
+          <div class="music wow zoomIn" data-duration="5s">
+            <span class="glyphicon glyphicon-headphones"></span>
           </div>
 
-          <div class="code">
-            <img src="" alt="" />
+          <div class="code wow zoomIn" data-duration="5s">
+            <img src="images/code.png" alt="code" width="65px" height="65px" />
           </div>
 
         </div>
@@ -187,13 +188,23 @@
         <h2 class="wow bounceInUp" data-wow-duration="2s">Dream</h2>
 
         <div class="dream-content">
-          <h2>I have a...</h2>
-          <h2>a dream!</h2>
-          <p>
+          <ul>
+            <li class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay="2s">I have a...</li>
+            <li class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="4s">dream!</li>
+          </ul>
+          <p class="wow bounceInLeft" data-wow-duration="3s" data-wow-delay="4s">
             When I was a child, when I was a boy and until now...
-            The first day or the last day of my life. Forever!
-            I have a dream: <span>Fly over sky. Look stars. Walk on the Mars. And sleep on the Space!</span><span class="glyphicon glyphicon-send"></span>
           </p>
+          <p class="wow bounceInRight" data-wow-duration="3s" data-wow-delay="5s">
+            The first day or the last day of my life.
+          </p>
+          <p class="wow zoomInUp" data-wow-duration="2s" data-wow-delay="6s">
+            Forever!
+          </p>
+          <h2 class="wow zoomInDown" data-wow-duration="2s" data-wow-delay="2s">Fly over sky. Look stars. Walk on the Mars...</h2>
+          <ul>
+            <li class="wow zoomInUp" data-wow-duration="2s" data-wow-delay="3s">And sleep on the Space! <li>
+            <li id="plane" class="glyphicon glyphicon-send wow zoomInUp" data-wow-duration="2s" data-wow-delay="4s"></li>
         </div>
       </div>
     </div>
@@ -211,26 +222,34 @@
         </div>
 
         <div class="think-content">
-          <blockquote cite="#think">
+          <blockquote cite="#think" class="wow zoomIn" data-wow-duration="3s">
             <p>
-
+               Freedom like an eagle, Fighting like a lion and Power like a king!
             </p>
             <footer>Trung Tin when <cite>Think</cite></footer>
           </blockquote>
 
-          <blockquote class="bq-center" cite="#think">
+          <blockquote class="blockquote-reverse wow zoomIn" cite="#think" data-wow-duration="3s" data-wow-delay="2s">
             <p>
-
+              Never use your life to follow the thoughts of others. Listen to your heart. Do what you want. That is the true happiness!
             </p>
             <footer>Trung Tin when <cite>Think</cite></footer>
           </blockquote>
 
-          <blockquote class="blockquote-reverse" cite="#think">
+          <blockquote cite="#think" class="wow zoomIn" data-wow-duration="3s">
             <p>
-
+              I don't need to apologize for who I am and what I want.
             </p>
             <footer>Trung Tin when <cite>Think</cite></footer>
           </blockquote>
+
+          <blockquote class="blockquote-reverse wow zoomIn" cite="#think" data-wow-duration="3s" data-wow-delay="2s">
+            <p>
+              Dream it. Do it. Make it come to life!
+            </p>
+            <footer>TrungTin when <cite>Think</cite></footer>
+          </blockquote>
+
         </div>
       </div>
     </div>

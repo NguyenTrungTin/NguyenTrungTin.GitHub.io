@@ -145,14 +145,28 @@ html, body {
   left: 500px;
 }
 
+.coffee img {
+  margin: 15px;
+}
+
 .music, .code {
-  float: right;
+  color: black;
+  float: left;
   bottom: 75px;
 }
 
+.music .glyphicon-headphones {
+  font-size: 50px;
+  margin: 15px;
+}
 .code {
   left: 500px;
 }
+
+.code img {
+  margin: 15px;
+}
+
 /* TODO: Just for Dream */
 
 .dream {
@@ -173,7 +187,30 @@ html, body {
 
 .dream-content {
   text-align: center;
+  margin-top: 150px;
 }
+
+.dream-content ul li {
+  display: inline-block;
+  font-size: 50px;
+  margin-top: 0px;
+  margin-bottom: 100px;
+}
+
+.dream-content h2 {
+  font-size: 50px;
+  margin-top: 100px
+}
+
+.dream-content p {
+  font-size: 30px;
+  font-style: italic;
+}
+
+#plane {
+  padding-left: 10px;
+}
+
 /* TODO: Just for think */
 
 .think {
@@ -192,6 +229,16 @@ html, body {
   width: 60px;
   height: 60px;
   margin-top: -30px;
+}
+
+.think-content {
+  margin-top: 200px;
+}
+
+blockquote {
+  font-size: 30px;
+  font-style: italic;
+  margin: 100px;
 }
 
 /* TODO: Just for video */
