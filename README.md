@@ -32,7 +32,7 @@ This is my first static website. Is this cool?* :wink:
 ## Think
 *Freedom like an eagle, Fighting like a lion and Power like a king!*
 
-*Never use your life to follow the thoughts of others. Listen to your heart. Do what you want. That is the true happiness! *
+*Never use your life to follow the thoughts of others. Listen to your heart. Do what you want. That is the true happiness!*
 
 *I don't need to apologize for who I am and what I want.*
 
