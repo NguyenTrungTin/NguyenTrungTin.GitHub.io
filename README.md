@@ -10,7 +10,7 @@ This is my first static website. Is this cool?* :wink:
 
 ## About me
 #### Born
-*The first time I cry in my life is 3h40 AM, 01/06/2015. I don't know how it is but I always think that it's a beautiful day! Yes, I'm a Gemini. I'm summer boy!*
+*The first time I cry in my life is 3h40 AM, 01/06/1994. I don't know how it is but I always think that it's a beautiful day! Yes, I'm a Gemini. I'm summer boy!*
 #### Young
 *I'm a giddy boy, a naughty student and.... Sometimes I'm a romantic, sometimes not. I entered Ho Chi Minh city University of Law in the fall of 2012.*
 #### Now
