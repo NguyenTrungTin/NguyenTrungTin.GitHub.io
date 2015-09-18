@@ -349,17 +349,17 @@ blockquote footer {
 }
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 480px) {
   .about {
-    background: transparent url("../images/about-bg-small.jpg") no-repeat fixed center;
+    background-color: #3F51B5;
   }
   .love {
-    background: transparent url("../images/love-bg-small.jpg") no-repeat fixed center; 
+    background-color: #673AB7;
   }
   .dream {
-    background: transparent url("../images/dream-bg-small.jpg") no-repeat fixed center;
+    background-color: #9C27B0;
   }
   .think {
-    background: transparent url("../images/think-bg-small.jpg") no-repeat fixed center;
+    background-color: #E91E63;
   }
 }
