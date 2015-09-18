@@ -351,15 +351,19 @@ blockquote footer {
 
 @media only screen and (max-width: 480px) {
   .about {
+    background-image: none;
     background-color: #3F51B5;
   }
   .love {
+    background-image: none;
     background-color: #673AB7;
   }
   .dream {
+    background-image: none;
     background-color: #9C27B0;
   }
   .think {
+    background-image: none;
     background-color: #E91E63;
   }
 }
