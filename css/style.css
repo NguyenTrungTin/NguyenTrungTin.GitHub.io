@@ -298,3 +298,53 @@ blockquote {
 .footer .thanks {
   text-align: center;
 }
+
+/* Just responsive */
+
+@media only screen and (max-width: 480px) {
+  .dream-content ul li {
+    font-size: 30px;
+  }
+  .dream-content p {
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
+  .dream-content h2 {
+    font-size: 30px;
+  }
+  #plane {
+    padding-left: 0px;
+  }
+  blockquote {
+  border-left: 5px solid;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+  font-size: 20px;
+}
+blockquote footer {
+  font-size: 15px;
+}
+.video-section {
+  height: 180px;
+}
+.footer p#work {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer #social {
+  text-align: center;
+  padding-left: 0px;
+}
+}
