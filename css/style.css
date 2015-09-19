@@ -351,19 +351,15 @@ blockquote footer {
 
 @media only screen and (max-width: 480px) {
   .about {
-    background-image: none;
-    background-color: #3F51B5;
+    background: transparent url("../images/about-bg.jpg") no-repeat scroll center;
   }
   .love {
-    background-image: none;
-    background-color: #673AB7;
+    background: transparent url("../images/love-bg.jpg") no-repeat scroll center;
   }
   .dream {
-    background-image: none;
-    background-color: #9C27B0;
+    background: transparent url("../images/dream-bg.jpg") no-repeat scroll center;
   }
   .think {
-    background-image: none;
-    background-color: #E91E63;
+    background: transparent url("../images/think-bg.jpg") no-repeat scroll center;
   }
 }
