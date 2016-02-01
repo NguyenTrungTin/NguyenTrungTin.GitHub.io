@@ -1,4 +1,4 @@
-# nguyentrungtin.github.io
+# [Nguyen Trung Tin] (http://trungtin.ilovesweetangel.com/)
 
 *[Nguyen Trung Tin](http://trungtin.ilovesweetangel.com/) - /* Son of Mars */*
 
