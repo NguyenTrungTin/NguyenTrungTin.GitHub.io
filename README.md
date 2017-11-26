@@ -1,6 +1,6 @@
-# [Nguyen Trung Tin] (http://trungtin.ilovesweetangel.com/)
+# Nguyen Trung Tin
 
-*[Nguyen Trung Tin](http://trungtin.ilovesweetangel.com/) - /* Son of Mars */*
+*[Nguyen Trung Tin](https://nguyentrungtin.github.io) - /* Son of Mars */*
 
 :rocket: `nguyentrungtin.github.io` *is my blog on github!
 This is my first static website. Is this cool?* :wink:
