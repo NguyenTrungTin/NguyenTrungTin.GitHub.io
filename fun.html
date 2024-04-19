@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Just for Fun!</title>
+
+        <style>
+            body {
+                height: 100vh;
+            }
+            #p2 {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+            }
+        </style>
+    </head>
+    <body id="fun">
+        <p id="p1">Hi, hope you get fun!</p>
+        <p id="p2">
+            Use your mouse / keyboard and find the secret pass somewhere in
+            console :))
+        </p>
+
+        <script>
+            // Get the element to double-click
+            const element = document.getElementById('fun');
+
+            // Add event listener for double-click event
+            element.addEventListener('dblclick', function () {
+                // Log text to console when double-clicked
+                console.log(
+                    'Hi! Email me with secret pass: "I Love You" and get the special gift :)'
+                );
+            });
+        </script>
+    </body>
+</html>
